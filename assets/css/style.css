@@ -1,81 +1,93 @@
-/* Reset some basic styles for better consistency */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Style for the main layout */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
 }
 
-/* Header section */
 header {
     background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+    color: white;
+    padding: 1rem;
     text-align: center;
 }
 
-header h1 {
-    margin-bottom: 10px;
-}
-
-header nav ul {
+nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
     margin-right: 15px;
 }
 
-header nav ul li a {
-    color: #fff;
+nav ul li a {
+    color: white;
     text-decoration: none;
 }
 
-header nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Home section */
-#home {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-#home img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+h1, h2 {
     margin-bottom: 20px;
 }
 
-#home h2 {
-    margin-bottom: 10px;
-    font-size: 2rem;
-}
-
-#home p {
-    font-size: 1.2rem;
-}
-
-/* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    width: 100%;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
-footer p {
-    margin: 0;
+section {
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the form in the contact page */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 10px 0;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
 }
