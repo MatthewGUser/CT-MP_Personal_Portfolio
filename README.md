@@ -40,7 +40,7 @@ cd Personal-Portfolio
 ```
 python -m http.server
 ```
-- Open your browser and visit http://localhost:8000.
+- Open your browser and visit http://localhost:8000 or http://127.0.0.1:5500/.
 3. Navigate between pages using the menu or links on the homepage.
 
 ## Sections and Pages
